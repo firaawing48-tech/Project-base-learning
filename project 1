@@ -1,0 +1,87 @@
+safira@safira-VirtualBox: $ mkdir documents images archives logs 
+safira@safira-VirtualBox: $ ls
+archives documents images logs
+safira@safira-VirtualBox: $
+safira@safira-VirtualBox: $ touch file1.txt file2.txt file3.pdf file4.pdf file5.doc 
+safira@safira-VirtualBox: $ touch foto1.png foto2.jpg foto3.png foto4.jpg foto5.png 
+safira@safira-VirtualBox: $ touch data1.rar data2.rar data3.zip data4.zip data5.rar 
+safira@safira-VirtualBox: $ touch log1.log log2.log log3. log log4.log log5.log 
+safira@safira-VirtualBox: $ echo "ini file 1"> file1.txt 
+safira@safira-VirtualBox: $ echo "ini file 2"> file2.txt 
+safira@safira-VirtualBox: $ echo "ini file 3"> file3.pdf 
+safira@safira-VirtualBox: $ echo "ini file 4"> file4.pdf 
+safira@safira-VirtualBox: $ echo "ini file 5"> file5.doc 
+safira@safira-VirtualBox: $ echo "ini foto 1"> foto1.png 
+safira@safira-VirtualBox: $ echo "ini foto 2"> foto2.jpg 
+safira@safira-VirtualBox: $ echo "ini foto 3"> foto3.png 
+safira@safira-VirtualBox: $ echo "ini foto 4"> foto4.jpg 
+safira@safira-VirtualBox: $ echo "ini foto 5"> foto5.png 
+safira@safira-VirtualBox: $ echo "ini data 1"> data1.rar 
+safira@safira-VirtualBox: $ echo "ini data 2"> data2.rar 
+safira@safira-VirtualBox: $ echo "ini data 3"> data3.zip 
+safira@safira-VirtualBox: $ echo "ini data 4"> data4.zip 
+safira@safira-VirtualBox: $ echo "ini data 5"> data5.rar
+safira@safira-VirtualBox: $ echo "ini log 1"> log1.log
+safira@safira-VirtualBox: $ echo "ini log 2"> log2.log
+safira@safira-VirtualBox: $ echo "ini log 3"> log3.log
+safira@safira-VirtualBox: $ echo "ini log 4"> log4.log
+safira@safira-VirtualBox: $ echo "ini log 5"> log5.log
+safira@safira-VirtualBox: $ find -type f -name "*.txt" -exec mv {} documents/ \;
+mv: './documents/file1.txt' and 'documents/file1.txt' are the same file
+mv: './documents/file2.txt' and 'documents/file2.txt' are the same file
+safira@safira-VirtualBox: $ find. -type f -name "*.pdf" -exec mv {} documents/ \;
+mv: './documents/file3.pdf' and 'documents/file3.pdf' are the same file
+mv: './documents/file4.pdf' and 'documents/file4.pdf' are the same file
+safira@safira-VirtualBox: $ find. -type f -name "*.doc" -exec mv {} documents/ \;
+mv: './documents/file5.doc' and 'documents/file5.doc' are the same file
+safira@safira-VirtualBox:~$ find . -type f -name "*.rar" -exec mv {} archives/ \;
+mv: './archives/data5.rar' and 'archives/data5.rar' are the same file
+mv: './archives/data1.rar' and 'archives/data1.rar' are the same file
+mv: './archives/data2.rar' and 'archives/data2.rar' are the same file
+safira@safira-VirtualBox:~$ find . -type f -name "*.zip" -exec mv {} archives/ \;
+mv: './archives/data3.zip' and 'archives/data3.zip' are the same file
+mv: './archives/data4.zip' and 'archives/data4.zip' are the same file
+safira@safira-VirtualBox:~$ find . -type f -name "*.png" -exec mv {} images/ \;
+mv: './images/foto1.png' and 'images/foto1.png' are the same file
+mv: './images/foto3.png' and 'images/foto3.png' are the same file
+mv: './images/foto5.png' and 'images/foto5.png' are the same file
+safira@safira-VirtualBox:~$ find . -type f -name "*.jpg" -exec mv {} images/ \;
+mv: './images/foto2.jpg' and 'images/foto2.jpg' are the same file
+mv: './images/foto4.jpg' and 'images/foto4.jpg' are the same file
+safira@safira-VirtualBox:~$ find . -type f -name "*.logs" -exec mv {} logs/ \;
+mv: './logs/log1.log' and 'logs/log1.log' are the same file
+mv: './logs/log2.log' and 'logs/log2.log' are the same file
+mv: './logs/log3.log' and 'logs/log3.log' are the same file
+mv: './logs/log4.log' and 'logs/log4.log' are the same file
+mv: './logs/log5.log' and 'logs/log5.log' are the same file
+safira@safira-VirtualBox:~$ find ~/documents -type f -iname "*file*"
+/home/safira/documents/file5.doc
+/home/safira/documents/file1.txt
+/home/safira/documents/file4.pdf
+/home/safira/documents/file2.txt
+/home/safira/documents/file3.pdf
+safira@safira-VirtualBox:~$ find ~/logs -type f -exec grep -li "ini log" {} \;
+/home/safira/logs/log3.log
+/home/safira/logs/log4.log
+/home/safira/logs/log1.log
+/home/safira/logs/log5.log
+/home/safira/logs/log2.log
+safira@safira-VirtualBox:~$ find ~/archives -type f -size -500k -exec ls -lh {} \;
+-rw-rw-r-- 1 safira safira 11 Nov  7 23:16 /home/safira/archives/data4.zip
+-rw-rw-r-- 1 safira safira 11 Nov  7 23:17 /home/safira/archives/data5.rar
+-rw-rw-r-- 1 safira safira 11 Nov  7 23:15 /home/safira/archives/data1.rar
+-rw-rw-r-- 1 safira safira 11 Nov  7 23:15 /home/safira/archives/data2.rar
+-rw-rw-r-- 1 safira safira 11 Nov  7 23:16 /home/safira/archives/data3.
+safira@safira-VirtualBox:~$ echo " LAPORAN STATISTIK SISTEM FILE" >> report.txt
+safira@safira-VirtualBox:~$ echo "==============================" >> report.txt
+safira@safira-VirtualBox:~$ echo "Tanggal $(date)" >> report.txt
+safira@safira-VirtualBox:~$ echo " " >> report.txt
+safira@safira-VirtualBox:~$ echo "Jumlah file dan direktori:" >> report.txt
+safira@safira-VirtualBox:~$ find . | wc -l >> report.txt
+safira@safira-VirtualBox:~$ echo " " >> report.txt
+safira@safira-VirtualBox:~$ echo "Ukuran total direktori:" >> report.txt
+safira@safira-VirtualBox:~$ du -sh >> report.txt
+safira@safira-VirtualBox:~$ echo " " >> report.txt
+safira@safira-VirtualBox:~$ echo "10 file terbesar:" >> report.txt
+safira@safira-VirtualBox:~$ find . -type f -exec du -ah {} + | sort -hr | head -n 10 >> report.txt
+safira@safira-VirtualBox:~$
