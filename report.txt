@@ -1,0 +1,22 @@
+  LAPORAN STATISTIK SISTEM FILE
+===================================
+Tanggal: Sun Nov  9 07:54:33 PM WITA 2025
+ 
+Jumlah File dan Direktori:
+5
+ 
+Ukuran Total Direktori:
+72M	.
+ 
+10 File Terbesar:
+4.0K	/home/nandokatili/project/logs/log_5.log
+4.0K	/home/nandokatili/project/logs/log_4.log
+4.0K	/home/nandokatili/project/logs/log_3.log
+4.0K	/home/nandokatili/project/logs/log_2.log
+4.0K	/home/nandokatili/project/logs/log_1.log
+4.0K	/home/nandokatili/project/log_5.log
+4.0K	/home/nandokatili/project/log_4.log
+4.0K	/home/nandokatili/project/log_3.log
+4.0K	/home/nandokatili/project/log_2.log
+4.0K	/home/nandokatili/project/log_1.log
+===================================
