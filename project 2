@@ -1,0 +1,8 @@
+safira@safira-VirtualBox:~$ mkdir project_sistem_operasi_D
+safira@safira-VirtualBox:~$ cd project_sistem_operasi_D
+safira@safira-VirtualBox:~/project_sistem_operasi_D
+safira@safira-VirtualBox:~/project_sistem_operasi_D$ mkdir src doc data
+safira@safira-VirtualBox:~/project_sistem_operasi_D$ touch README.md main.sh
+safira@safira-VirtualBox:~/project_sistem_operasi_D$ touch README.md src/main.sh
+safira@safira-VirtualBox:~/project_sistem_operasi_D$ du -sh
+16K
