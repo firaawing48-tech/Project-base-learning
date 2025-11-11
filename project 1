@@ -48,12 +48,12 @@ mv: './images/foto5.png' and 'images/foto5.png' are the same file
 safira@safira-VirtualBox:~$ find . -type f -name "*.jpg" -exec mv {} images/ \;
 mv: './images/foto2.jpg' and 'images/foto2.jpg' are the same file
 mv: './images/foto4.jpg' and 'images/foto4.jpg' are the same file
-safira@safira-VirtualBox:~$ find . -type f -name "*.logs" -exec mv {} logs/ \;
-mv: './logs/log1.log' and 'logs/log1.log' are the same file
-mv: './logs/log2.log' and 'logs/log2.log' are the same file
-mv: './logs/log3.log' and 'logs/log3.log' are the same file
-mv: './logs/log4.log' and 'logs/log4.log' are the same file
-mv: './logs/log5.log' and 'logs/log5.log' are the same file
+safira@safira-VirtualBox:~$ find . -type f -name "*.logs" -exec cp {} logs/ \;
+cp: './logs/log1.log' and 'logs/log1.log' are the same file
+cp: './logs/log2.log' and 'logs/log2.log' are the same file
+cp: './logs/log3.log' and 'logs/log3.log' are the same file
+cp: './logs/log4.log' and 'logs/log4.log' are the same file
+cp: './logs/log5.log' and 'logs/log5.log' are the same file
 safira@safira-VirtualBox:~$ find ~/documents -type f -iname "*file*"
 /home/safira/documents/file5.doc
 /home/safira/documents/file1.txt
