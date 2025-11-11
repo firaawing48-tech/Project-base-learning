@@ -1,0 +1,21 @@
+ LAPORAN STATISTIK SISTEM FILE
+==============================
+Tanggal Mon Nov 10 05:34:28 PM WITA 2025
+ 
+Jumlah file dan direktori:
+12
+ 
+Ukuran total direktori:
+441M	.
+ 
+10 file terbesar:
+134M	./snap/firefox/common/.mozilla/firefox/8y2a2vnd.default/storage/default/https+++web.whatsapp.com/idb/2181795718meogdaerlo-ts.sqlite
+30M	./snap/firefox/common/.mozilla/firefox/8y2a2vnd.default/storage/default/https+++web.whatsapp.com/idb/1773850371fetgsa-rsot.sqlite
+15M	./.local/share/Trash/files/snap/firefox/common/.mozilla/firefox/er11va1x.default/storage/default/https+++web.whatsapp.com/idb/2181795718meogdaerlo-ts.sqlite
+14M	./snap/firefox/common/.mozilla/firefox/8y2a2vnd.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite
+12M	./.local/share/Trash/files/snap/firefox/common/.cache/mozilla/firefox/er11va1x.default/startupCache/scriptCache.bin
+11M	./snap/firefox/common/.cache/mozilla/firefox/8y2a2vnd.default/startupCache/scriptCache.bin
+9.5M	./snap/firefox/common/.cache/mozilla/firefox/8y2a2vnd.default/startupCache/startupCache.8.little
+9.4M	./.local/share/Trash/files/snap/firefox/common/.cache/mozilla/firefox/er11va1x.default/startupCache/startupCache.8.little
+8.7M	./.local/share/Trash/files/snap/firefox/common/.cache/mozilla/firefox/er11va1x.default/safebrowsing/google4/goog-phish-proto.vlpset
+8.6M	./snap/firefox/common/.cache/mozilla/firefox/8y2a2vnd.default/safebrowsing/google4/goog-phish-proto.vlpset
